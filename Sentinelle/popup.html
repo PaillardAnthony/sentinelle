@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title data-i18n-title="extName"></title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="tab-container">
+        <div id="active-alert-container"></div>
+
+        <div class="tab-buttons">
+            <button class="tab-btn active" data-tab="settings-tab" data-i18n="popupSettingsTitle"></button>
+            <button class="tab-btn" data-tab="history-tab" data-i18n="popupHistoryTitle"></button>
+        </div>
+
+        <div class="main-content">
+            <div id="settings-tab" class="tab-content active">
+                
+                <div class="setting-section">
+                    <div class="setting-title" data-i18n="companionStatusTitle"></div>
+                    <div class="status-line">
+                        <span>Statut :</span>
+                        <span id="companion-status-badge" class="status-badge checking" data-i18n="companionStatusChecking"></span>
+                        <span id="companion-info-button" class="help-icon" data-target="companion-details" style="display: none;">?</span>
+                    </div>
+                    <div id="companion-details" class="help-text">
+                        <strong data-i18n="companionHelpTitle"></strong>
+                        <p data-i18n="companionHelpDesc"></p>
+                        <button id="install-companion-button" class="install-button" data-i18n="companionInstallButton"></button>
+                    </div>
+                </div>
+
+                <hr class="separator">
+
+                <div class="setting-section">
+                    <div class="setting-title" data-i18n="advancedSettingsTitle"></div>
+                    <div class="setting-row">
+                        <div class="label-with-help">
+                            <span data-i18n="allowScriptsLabel"></span>
+                            <span class="help-icon" data-target="scriptsHelpText">?</span>
+                        </div>
+                        <label class="switch"><input type="checkbox" id="allowScripts"><span class="slider"></span></label>
+                    </div>
+                    <div class="help-text" id="scriptsHelpText" data-i18n="allowScriptsHelp"></div>
+                </div>
+                
+                <hr class="separator">
+                
+                <div class="setting-section">
+                     <div class="setting-api">
+                        <div class="label-with-help">
+                            <label for="apiKey" class="api-label" data-i18n="apiKeyLabel"></label>
+                            <span id="apiKeyStatus" class="status-badge"></span>
+                            <span class="help-icon" data-target="apiKeyHelpText">?</span>
+                        </div>
+                        <p class="api-desc" data-i18n="apiKeyDesc"></p>
+                        <div class="help-text" id="apiKeyHelpText" data-i18n="apiKeyHelp"></div>
+                        <input type="password" id="apiKey" placeholder="Collez votre clé d'API ici">
+                        <button id="saveApiKey" class="api-button" data-i18n="saveButton"></button>
+                        <div id="status"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="history-tab" class="tab-content">
+                <ul id="log-list"></ul>
+                <p id="no-history" class="empty-state" data-i18n="noHistory"></p>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "FILE_SIGNATURES": {
+    "exe": "4d5a",
+    "dll": "4d5a",
+    "zip": "504b0304",
+    "rar": "52617221",
+    "7z": "377abcaf",
+    "jar": "504b0304",
+    "msi": "d0cf11e0",
+    "pdf": "25504446",
+    "docx": "504b0304",
+    "xlsx": "504b0304",
+    "pptx": "504b0304",
+    "doc": "d0cf11e0",
+    "xls": "d0cf11e0",
+    "ppt": "d0cf11e0",
+    "jpg": "ffd8ffe0",
+    "jpeg": "ffd8ffe0",
+    "png": "89504e47",
+    "gif": "47494638",
+    "bmp": "424d",
+    "webp": "52494646",
+    "mp3": "494433",
+    "mp4": "0000001866747970",
+    "mov": "0000001466747970"
+  },
+  "SCRIPT_EXTENSIONS": [
+    "js", "mjs", "bat", "cmd", "ps1", "sh", "vbs", "jar", "scr"
+  ],
+  "DANGEROUS_EXTENSIONS_FOR_SPOOFING": [
+    "exe", "msi", "bat", "cmd", "scr", "com"
+  ],
+  "SAFE_EXTENSIONS_TO_IMPERSONATE": [
+    "pdf", "docx", "xlsx", "pptx", "jpg", "png", "mp3", "zip"
+  ]
+  
+}

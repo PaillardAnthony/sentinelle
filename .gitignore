@@ -1,0 +1,27 @@
+# Fichiers de log
+debug.log
+*.log
+
+# Fichier manifeste du compagnon, généré par le script d'install
+# car il contient un chemin d'accès local.
+sentinelle_manifest.json
+
+# Exécutable compilé du compagnon et dossiers de build
+sentinelle_compagnon.exe
+/dist/
+/build/
+*.spec
+
+# Environnement virtuel et cache Python
+/venv/
+/.venv/
+/__pycache__/
+*.pyc
+
+# Fichiers système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Fichiers de configuration d'éditeurs de code
+.vscode/
+.idea/
