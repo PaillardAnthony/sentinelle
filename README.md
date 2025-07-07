@@ -21,7 +21,7 @@ Le compagnon est nécessaire pour permettre l'analyse complète des fichiers.
     ./install.sh
     ```
 
-# sentinelle## Désinstallation
+# sentinelle Désinstallation
 
 Si vous souhaitez supprimer le compagnon, des scripts sont fournis.
 
