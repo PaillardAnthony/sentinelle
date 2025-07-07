@@ -97,7 +97,7 @@ function checkCompanionStatus() {
             helpDesc.textContent = chrome.i18n.getMessage('companionHelpDesc');
             installButton.style.display = 'block';
             installButton.addEventListener('click', () => {
-                chrome.tabs.create({ url: 'https://github.com/VOTRE-PSEUDO/Sentinelle' });
+                chrome.tabs.create({ url: 'https://github.com/PaillardAnthony/sentinelle/releases' });
             });
         } else {
             statusBadge.textContent = chrome.i18n.getMessage('companionStatusActive');
