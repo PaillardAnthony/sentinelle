@@ -94,7 +94,7 @@ input:checked + .slider:before { transform: translateX(20px); }
 .help-icon { display: inline-block; width: 16px; height: 16px; border-radius: 50%; background-color: var(--border-color); color: var(--text-color); font-size: 11px; font-weight: 700; text-align: center; line-height: 16px; cursor: pointer; transition: background-color .2s ease; }
 .help-icon:hover { background-color: var(--switch-bg-color); }
 .help-text { background-color: var(--body-bg-color); border-radius: 6px; padding: 10px 12px; font-size: 12px; line-height: 1.5; margin-top: 8px; border: 1px solid var(--border-color); max-height: 0; opacity: 0; overflow: hidden; transition: all .3s ease-out; padding-top: 0; padding-bottom: 0; }
-.help-text.visible { max-height: 150px; opacity: 1; padding-top: 10px; padding-bottom: 12px; }
+.help-text.visible { max-height: 170px; opacity: 1; padding-top: 10px; padding-bottom: 12px; }
 
 .status-line { display: flex; align-items: center; gap: 8px; padding: 8px 0; }
 .status-badge { font-size: 10px; font-weight: 700; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; color: #fff; }

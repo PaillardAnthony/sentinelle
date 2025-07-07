@@ -2,6 +2,7 @@
   "manifest_version": 3,
   "name": "__MSG_extName__",
   "description": "__MSG_extDescription__",
+  "key": "lmiaoiccgclhfgclgmomjogfmekgfnkm",
   "version": "21.0",
   "default_locale": "fr",
   "permissions": [
