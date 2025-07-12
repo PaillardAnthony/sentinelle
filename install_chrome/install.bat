@@ -26,7 +26,7 @@ echo Creation du fichier manifeste pour Chrome...
     echo   "path": "%JSON_COMPANION_PATH%",
     echo   "type": "stdio",
     echo   "allowed_origins": [
-    echo     "chrome-extension://icajpnmilmmelhmjcjpdgnkonjfbglpe/"
+    echo     "chrome-extension://iekchniojgdaphoonhkilnafkokbaiei/"
     echo   ]
     echo }
 ) > "%MANIFEST_PATH%"
