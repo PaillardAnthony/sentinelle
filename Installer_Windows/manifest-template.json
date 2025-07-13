@@ -1,0 +1,9 @@
+{
+  "name": "fr.sentinelle.host",
+  "description": "Companion for the Sentinelle extension",
+  "path": "__PATH__",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://geankaliehobjalojplkhhndacgmkgln/"
+  ]
+}
